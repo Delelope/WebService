@@ -17,7 +17,7 @@ namespace WCF_QuanLyKhachSanForm
     {
         public bool flag;
         public FormMain frmMain;
-        //public FormPhieuDatphong frmPhieuDatPhong;
+        public FormPhieuDatphong frmPhieuDatPhong;
         private int limit;
         ServiceKhachHangClient khg = new ServiceKhachHangClient();
         KhachHangDTO khDTO;

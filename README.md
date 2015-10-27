@@ -1,2 +1,0 @@
-# WebService
-WebService_HotelManager

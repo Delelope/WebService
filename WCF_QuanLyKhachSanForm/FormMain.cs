@@ -206,23 +206,23 @@ namespace WCF_QuanLyKhachSanForm
 
         private void phiếuĐặtPhòngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //FormPhieuDatphong frmPhieuDatPhong = new FormPhieuDatphong();
-            //frmPhieuDatPhong.frmMain = this;
-            //frmPhieuDatPhong.ShowDialog();
+            FormPhieuDatphong frmPhieuDatPhong = new FormPhieuDatphong();
+            frmPhieuDatPhong.frmMain = this;
+            frmPhieuDatPhong.ShowDialog();
         }
 
         private void phiếuThuêToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //FormPhieuThuePhong frmPhieuThuePhong = new FormPhieuThuePhong();
-            //frmPhieuThuePhong.frmMain = this;
-            //frmPhieuThuePhong.ShowDialog();
+            FormPhieuThuePhong frmPhieuThuePhong = new FormPhieuThuePhong();
+            frmPhieuThuePhong.frmMain = this;
+            frmPhieuThuePhong.ShowDialog();
         }
 
         private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //FormHoaDon frmHoadon = new FormHoaDon();
-            //frmHoadon.frmMain = this;
-            //frmHoadon.ShowDialog();
+            FormHoaDon frmHoadon = new FormHoaDon();
+            frmHoadon.frmMain = this;
+            frmHoadon.ShowDialog();
         }
 
         private void MainEnabled()
@@ -354,16 +354,16 @@ namespace WCF_QuanLyKhachSanForm
 
         private void vậtTưToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-        //    FormBaoCaoVatTu frmBCVT = new FormBaoCaoVatTu();
-        //    frmBCVT.frmMain = this;
-        //    frmBCVT.ShowDialog();
+            FormBaoCaoVatTu frmBCVT = new FormBaoCaoVatTu();
+            frmBCVT.frmMain = this;
+            frmBCVT.ShowDialog();
         }
 
         private void nhânViênToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            //FormBaoCaoNhanVien frmBCNV = new FormBaoCaoNhanVien();
-            //frmBCNV.frmMain = this;
-            //frmBCNV.ShowDialog();
+            FormBaoCaoNhanVien frmBCNV = new FormBaoCaoNhanVien();
+            frmBCNV.frmMain = this;
+            frmBCNV.ShowDialog();
         }
 
         private void đạtToolStripMenuItem_Click(object sender, EventArgs e)
@@ -374,9 +374,9 @@ namespace WCF_QuanLyKhachSanForm
                 return;
             }
 
-            //FormPhieuDatphong frmPDP = new FormPhieuDatphong();
-            //frmPDP.frmMain = this;
-            //frmPDP.ShowDialog();
+            FormPhieuDatphong frmPDP = new FormPhieuDatphong();
+            frmPDP.frmMain = this;
+            frmPDP.ShowDialog();
         }
         
         private void ặtToolStripMenuItem_Click(object sender, EventArgs e)
@@ -397,11 +397,11 @@ namespace WCF_QuanLyKhachSanForm
                 {
                     maphieudat=ctdp.Maphieudat;
                 }
-                //FormPhieuDatphong frmPDP = new FormPhieuDatphong();
-                //frmPDP.frmMain = this;
-                //frmPDP.maphieudatT = maphieudat;
-                ////MessageBox.Show(maphieudat);
-                //frmPDP.ShowDialog();
+                FormPhieuDatphong frmPDP = new FormPhieuDatphong();
+                frmPDP.frmMain = this;
+                frmPDP.maphieudatT = maphieudat;
+                //MessageBox.Show(maphieudat);
+                frmPDP.ShowDialog();
             }
             else if (pDTO.Dadat == true && pDTO.Danhan == true)
             {
@@ -442,11 +442,11 @@ namespace WCF_QuanLyKhachSanForm
                         }
                     }
                 }
-                //FormPhieuThuePhong frmPTP = new FormPhieuThuePhong();
-                //frmPTP.frmMain = this;
-                //frmPTP.maphong = pDTO.Maphong;
-                //frmPTP.maphieuthue = mpt;
-                //frmPTP.ShowDialog();
+                FormPhieuThuePhong frmPTP = new FormPhieuThuePhong();
+                frmPTP.frmMain = this;
+                frmPTP.maphong = pDTO.Maphong;
+                frmPTP.maphieuthue = mpt;
+                frmPTP.ShowDialog();
 
             }
             else
@@ -483,10 +483,10 @@ namespace WCF_QuanLyKhachSanForm
                         }
                     }
                 }
-                //FormHoaDon frmHD = new FormHoaDon();
-                //frmHD.frmMain = this;
-                //frmHD.maphieuthue = mpt;
-                //frmHD.ShowDialog();
+                FormHoaDon frmHD = new FormHoaDon();
+                frmHD.frmMain = this;
+                frmHD.maphieuthue = mpt;
+                frmHD.ShowDialog();
 
             }
             else
@@ -505,9 +505,9 @@ namespace WCF_QuanLyKhachSanForm
 
         private void thongToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //FormThongKeDatPhong frm = new FormThongKeDatPhong();
-            //frm.frmMain = this;
-            //frm.ShowDialog();
+            FormThongKeDatPhong frm = new FormThongKeDatPhong();
+            frm.frmMain = this;
+            frm.ShowDialog();
         }
     }
 }
