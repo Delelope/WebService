@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3b1282a7-cfb5-4ee8-8fd9-3b503b17e717" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7429/ServiceChiTietDatPhong.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceChiTietDatPhong.disco" MetadataType="Disco" ID="b2c13121-1300-4d3e-8851-4040e5b7f3ee" SourceId="1" SourceUrl="http://localhost:7429/ServiceChiTietDatPhong.svc?disco" />
+    <MetadataFile FileName="ServiceChiTietDatPhong.xsd" MetadataType="Schema" ID="b7740f95-176f-4f01-a479-09034b0fc98d" SourceId="1" SourceUrl="http://localhost:7429/ServiceChiTietDatPhong.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceChiTietDatPhong1.xsd" MetadataType="Schema" ID="1e71453a-f999-4b9b-a57a-6da6f8332437" SourceId="1" SourceUrl="http://localhost:7429/ServiceChiTietDatPhong.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceChiTietDatPhong2.xsd" MetadataType="Schema" ID="cf257afa-4723-46b5-9ec6-d711b5662dd9" SourceId="1" SourceUrl="http://localhost:7429/ServiceChiTietDatPhong.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceChiTietDatPhong.wsdl" MetadataType="Wsdl" ID="b4361e21-7f9d-4571-adf8-630ea8fdc494" SourceId="1" SourceUrl="http://localhost:7429/ServiceChiTietDatPhong.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
